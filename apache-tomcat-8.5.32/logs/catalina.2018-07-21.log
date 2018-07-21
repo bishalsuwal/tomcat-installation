@@ -1,0 +1,307 @@
+21-Jul-2018 07:40:41.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-229.el7.x86_64
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b10
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:40:41.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.32/conf/logging.properties
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.32/temp
+21-Jul-2018 07:40:41.418 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2018 07:40:41.782 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:40:41.798 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 07:40:41.811 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:40:41.812 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 07:40:41.814 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1986 ms
+21-Jul-2018 07:40:41.871 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2018 07:40:41.872 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+21-Jul-2018 07:40:41.920 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT]
+21-Jul-2018 07:40:42.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT] has finished in [657] ms
+21-Jul-2018 07:40:42.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs]
+21-Jul-2018 07:40:42.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs] has finished in [36] ms
+21-Jul-2018 07:40:42.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples]
+21-Jul-2018 07:40:43.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples] has finished in [730] ms
+21-Jul-2018 07:40:43.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager]
+21-Jul-2018 07:40:43.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager] has finished in [93] ms
+21-Jul-2018 07:40:43.437 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 07:40:43.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [45] ms
+21-Jul-2018 07:40:43.484 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:40:43.498 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:40:43.501 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1686 ms
+21-Jul-2018 07:40:56.260 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jul-2018 07:40:56.261 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:40:56.314 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:40:56.367 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jul-2018 07:40:56.441 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:40:56.446 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:40:56.449 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:40:56.450 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:58:52.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-229.el7.x86_64
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre
+21-Jul-2018 07:58:52.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b10
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.32/conf/logging.properties
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:58:52.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 07:58:52.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.32/temp
+21-Jul-2018 07:58:52.250 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2018 07:58:52.362 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:58:52.380 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 07:58:52.388 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:58:52.389 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 07:58:52.391 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 960 ms
+21-Jul-2018 07:58:52.412 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2018 07:58:52.413 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+21-Jul-2018 07:58:52.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT]
+21-Jul-2018 07:58:53.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT] has finished in [697] ms
+21-Jul-2018 07:58:53.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs]
+21-Jul-2018 07:58:53.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs] has finished in [12] ms
+21-Jul-2018 07:58:53.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples]
+21-Jul-2018 07:58:53.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples] has finished in [478] ms
+21-Jul-2018 07:58:53.624 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager]
+21-Jul-2018 07:58:53.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager] has finished in [19] ms
+21-Jul-2018 07:58:53.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 07:58:53.663 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [20] ms
+21-Jul-2018 07:58:53.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 07:58:53.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 07:58:53.747 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1356 ms
+21-Jul-2018 08:11:54.415 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a]
+21-Jul-2018 08:11:54.451 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a] has finished in [36] ms
+21-Jul-2018 08:26:55.368 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/a]
+21-Jul-2018 08:29:55.549 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a]
+21-Jul-2018 08:29:55.579 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a] has finished in [29] ms
+21-Jul-2018 08:38:35.919 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2-mvc-xml-hello-world-1.0-SNAPSHOT.war]
+21-Jul-2018 08:38:37.058 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2018 08:38:37.142 INFO [localhost-startStop-4] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+21-Jul-2018 08:38:37.160 INFO [localhost-startStop-4] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.XmlWebApplicationContext@70a34a3e: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:38:37 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:38:37.214 INFO [localhost-startStop-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+21-Jul-2018 08:38:37.411 INFO [localhost-startStop-4] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@70a34a3e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7d9ec61b
+21-Jul-2018 08:38:37.428 INFO [localhost-startStop-4] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d9ec61b: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:38:37.466 INFO [localhost-startStop-4] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 324 ms
+21-Jul-2018 08:38:37.467 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2-mvc-xml-hello-world-1.0-SNAPSHOT.war] has finished in [1,548] ms
+21-Jul-2018 08:38:47.971 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/spring2-mvc-xml-hello-world-1.0-SNAPSHOT]
+21-Jul-2018 08:38:47.972 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.context.support.AbstractApplicationContext.doClose Closing org.springframework.web.context.support.XmlWebApplicationContext@70a34a3e: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:38:37 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:38:47.973 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d9ec61b: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:38:47.989 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war]
+21-Jul-2018 08:38:48.248 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2018 08:38:48.288 INFO [localhost-startStop-5] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+21-Jul-2018 08:38:48.295 INFO [localhost-startStop-5] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.XmlWebApplicationContext@593ac42d: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:38:48 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:38:48.318 INFO [localhost-startStop-5] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+21-Jul-2018 08:38:48.346 INFO [localhost-startStop-5] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@593ac42d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@54219c56
+21-Jul-2018 08:38:48.358 INFO [localhost-startStop-5] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54219c56: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:38:48.383 INFO [localhost-startStop-5] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 95 ms
+21-Jul-2018 08:38:48.384 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war] has finished in [396] ms
+21-Jul-2018 08:40:57.835 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jul-2018 08:40:57.835 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:40:57.895 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:40:57.948 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jul-2018 08:40:57.968 INFO [localhost-startStop-6] org.springframework.context.support.AbstractApplicationContext.doClose Closing org.springframework.web.context.support.XmlWebApplicationContext@593ac42d: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:38:48 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:40:57.969 INFO [localhost-startStop-6] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54219c56: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:40:57.980 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:40:57.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:40:57.992 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:40:57.993 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:41:03.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+21-Jul-2018 08:41:03.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+21-Jul-2018 08:41:03.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+21-Jul-2018 08:41:03.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2018 08:41:03.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-229.el7.x86_64
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b10
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.32/conf/logging.properties
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2018 08:41:03.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.32/temp
+21-Jul-2018 08:41:03.579 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2018 08:41:03.987 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:41:04.009 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 08:41:04.021 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:41:04.023 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 08:41:04.025 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1370 ms
+21-Jul-2018 08:41:04.048 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2018 08:41:04.049 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+21-Jul-2018 08:41:04.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war]
+21-Jul-2018 08:41:04.976 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2018 08:41:05.119 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+21-Jul-2018 08:41:05.128 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.XmlWebApplicationContext@5a7f70f0: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:41:05 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:41:05.161 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+21-Jul-2018 08:41:05.230 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@5a7f70f0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac8152a
+21-Jul-2018 08:41:05.244 INFO [localhost-startStop-1] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac8152a: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:41:05.284 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 165 ms
+21-Jul-2018 08:41:05.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war] has finished in [1,224] ms
+21-Jul-2018 08:41:05.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT]
+21-Jul-2018 08:41:05.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT] has finished in [34] ms
+21-Jul-2018 08:41:05.337 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs]
+21-Jul-2018 08:41:05.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs] has finished in [29] ms
+21-Jul-2018 08:41:05.366 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples]
+21-Jul-2018 08:41:06.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples] has finished in [646] ms
+21-Jul-2018 08:41:06.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager]
+21-Jul-2018 08:41:06.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager] has finished in [42] ms
+21-Jul-2018 08:41:06.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 08:41:06.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [27] ms
+21-Jul-2018 08:41:06.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a]
+21-Jul-2018 08:41:06.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a] has finished in [9] ms
+21-Jul-2018 08:41:06.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:41:06.099 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:41:06.101 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2076 ms
+21-Jul-2018 08:56:28.633 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jul-2018 08:56:28.634 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:56:28.700 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:56:28.753 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jul-2018 08:56:28.796 INFO [localhost-startStop-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing org.springframework.web.context.support.XmlWebApplicationContext@5a7f70f0: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:41:05 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:56:28.797 INFO [localhost-startStop-2] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac8152a: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:56:28.811 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:56:28.813 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:56:28.816 INFO [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:56:28.817 INFO [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:56:45.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-229.el7.x86_64
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b10
+21-Jul-2018 08:56:45.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.32/conf/logging.properties
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 08:56:45.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.32/temp
+21-Jul-2018 08:56:45.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2018 08:56:45.177 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:56:45.199 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 08:56:45.206 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:56:45.207 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 08:56:45.207 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 474 ms
+21-Jul-2018 08:56:45.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2018 08:56:45.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+21-Jul-2018 08:56:45.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war]
+21-Jul-2018 08:56:45.956 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2018 08:56:54.484 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [8,500] milliseconds.
+21-Jul-2018 08:56:54.644 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+21-Jul-2018 08:56:54.659 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.XmlWebApplicationContext@6d7c2560: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:56:54 PDT 2018]; root of context hierarchy
+21-Jul-2018 08:56:54.696 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+21-Jul-2018 08:56:54.772 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@6d7c2560]: org.springframework.beans.factory.support.DefaultListableBeanFactory@18773853
+21-Jul-2018 08:56:54.792 INFO [localhost-startStop-1] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18773853: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 08:56:54.848 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 204 ms
+21-Jul-2018 08:56:54.857 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war] has finished in [9,609] ms
+21-Jul-2018 08:56:54.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT]
+21-Jul-2018 08:56:54.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT] has finished in [15] ms
+21-Jul-2018 08:56:54.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs]
+21-Jul-2018 08:56:54.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs] has finished in [13] ms
+21-Jul-2018 08:56:54.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples]
+21-Jul-2018 08:56:55.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples] has finished in [131] ms
+21-Jul-2018 08:56:55.017 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager]
+21-Jul-2018 08:56:55.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager] has finished in [18] ms
+21-Jul-2018 08:56:55.035 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 08:56:55.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [15] ms
+21-Jul-2018 08:56:55.050 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a]
+21-Jul-2018 08:56:55.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a] has finished in [10] ms
+21-Jul-2018 08:56:55.062 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 08:56:55.094 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 08:56:55.101 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9893 ms
+21-Jul-2018 09:02:35.388 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+21-Jul-2018 09:02:35.422 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 09:02:35.438 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [16] ms
+21-Jul-2018 09:04:35.529 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+21-Jul-2018 09:04:35.538 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 09:04:35.559 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [21] ms
+21-Jul-2018 09:07:06.284 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Jul-2018 09:07:06.284 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 09:07:06.352 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 09:07:06.412 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Jul-2018 09:07:06.439 INFO [localhost-startStop-4] org.springframework.context.support.AbstractApplicationContext.doClose Closing org.springframework.web.context.support.XmlWebApplicationContext@6d7c2560: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 08:56:54 PDT 2018]; root of context hierarchy
+21-Jul-2018 09:07:06.440 INFO [localhost-startStop-4] org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18773853: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 09:07:06.460 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 09:07:06.463 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 09:07:24.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-229.el7.x86_64
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b10
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 09:07:24.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/apache-tomcat-8.5.32/conf/logging.properties
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/apache-tomcat-8.5.32
+21-Jul-2018 09:07:24.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/apache-tomcat-8.5.32/temp
+21-Jul-2018 09:07:24.507 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Jul-2018 09:07:24.599 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 09:07:24.608 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 09:07:24.615 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 09:07:24.616 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jul-2018 09:07:24.618 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 470 ms
+21-Jul-2018 09:07:24.646 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jul-2018 09:07:24.647 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+21-Jul-2018 09:07:24.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war]
+21-Jul-2018 09:07:25.412 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jul-2018 09:07:25.565 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+21-Jul-2018 09:07:25.575 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing org.springframework.web.context.support.XmlWebApplicationContext@6d7c2560: display name [WebApplicationContext for namespace 'mvc-dispatcher-servlet']; startup date [Sat Jul 21 09:07:25 PDT 2018]; root of context hierarchy
+21-Jul-2018 09:07:25.604 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+21-Jul-2018 09:07:25.671 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@6d7c2560]: org.springframework.beans.factory.support.DefaultListableBeanFactory@18773853
+21-Jul-2018 09:07:25.697 INFO [localhost-startStop-1] org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18773853: defining beans [viewResolver,/welcome.htm]; root of factory hierarchy
+21-Jul-2018 09:07:25.746 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 181 ms
+21-Jul-2018 09:07:25.757 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/apache-tomcat-8.5.32/webapps/spring2.war] has finished in [1,072] ms
+21-Jul-2018 09:07:25.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT]
+21-Jul-2018 09:07:25.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/ROOT] has finished in [15] ms
+21-Jul-2018 09:07:25.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs]
+21-Jul-2018 09:07:25.788 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/docs] has finished in [14] ms
+21-Jul-2018 09:07:25.789 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples]
+21-Jul-2018 09:07:25.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/examples] has finished in [169] ms
+21-Jul-2018 09:07:25.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager]
+21-Jul-2018 09:07:25.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/host-manager] has finished in [28] ms
+21-Jul-2018 09:07:25.986 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager]
+21-Jul-2018 09:07:26.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/manager] has finished in [20] ms
+21-Jul-2018 09:07:26.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a]
+21-Jul-2018 09:07:26.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-8.5.32/webapps/a] has finished in [13] ms
+21-Jul-2018 09:07:26.023 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8888"]
+21-Jul-2018 09:07:26.032 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jul-2018 09:07:26.035 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1416 ms
